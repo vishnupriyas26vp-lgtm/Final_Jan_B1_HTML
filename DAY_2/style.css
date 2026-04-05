@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color:blueviolet;
+    border: 2px solid white;
+    font-family: sans-serif;
+}
+h1{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    -webkit-text-stroke-width: 1px green;
+    border-radius: 20px;
+}
+h2{
+    background-color: rgb(112, 10, 10);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border-left:5px white solid;
+}
+h3{
+    background-color: rgb(112, 10, 10);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border-left:5px white solid;
+}
+p{
+    background-color:black;
+    color: rgb(149, 59, 209);
+}
+audio{
+    width: 100%;
+    box-shadow: aqua 5px 2px 10px;
+}
+iframe{
+    width: 50%;
+    box-shadow: red 5px 2px 10px;
+}
+.song_title{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(51, 0, 255);
+}
+#last_movie{
+    background-color: rgb(0, 255, 255);
+    color: black;
+}/*#last_movie is an id selector which is used to select the element with the id "last_movie" and apply the specified styles to it. In this case, it sets the background color to cyan and the text color to black for the element with the id "last_movie".*/
