@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
@@ -11,22 +12,33 @@
     </style>
 </head>
 <body>
-    <h1>vishnu Priya - Java full stack developer</h1>
-    <h2>welcome to my Portfolio</h2>
-    <ul type="disc">
-    <li> <a href="#abtme">About Me</a> </li>
-    <li><a href="#ski">Skills</a></li>
-    <li><a href="#pro">Projects</a></li>
-    <li><a href="#tech">Tech Glossary</a></li>
-    <li><a href="#lg">Learning Goal</a></li>
-    <li><a href="#con">contact</a></li>
-    <li><a href="./Resume.pdf" download="Vishnu_resume.pdf">Download Resume</a></li>
-     
+    <nav class="nav_bar">
+    <div class="navlist_container">
+    <ul type="disc" >
+    <li class="nav_list"> <a class="nav_link" href="#abtme">About Me</a> </li>
+    <li class="nav_list"><a class="nav_link" href="#ski">Skills</a></li>
+    <li class="nav_list"><a class="nav_link" href="#pro">Projects</a></li>
+    <li class="nav_list"><a class="nav_link" href="#con">Contact</a></li>
+    <li class="nav_list"><a href="./Resume.pdf" download="Vishnu_resume.pdf">Download Resume</a></li>
     </ul>
+    </div>
+    </nav>
+    <div>
+    <video class="hero_video" src="./assets/VISHNU PRIYA S.mp4" autoplay loop></video>
+    </div>
+    <div class="content-wrapper">
+     <h1>vishnu Priya - Java full stack developer</h1>
+    <h2>welcome to my Portfolio</h2><br>
     <h2 id="abtme">About me </h2>
-    <p>I am a passionate java full stack web developer.Interested in creating the web application with the interactive and responsive UI</p>
-    <h3>visit my github profile</h3>
-    <h2 id="ski">Skills</h2>
+    <p>I am an aspiring Software Engineer with a strong foundation in Java, Python, and modern web technologies. I specialize in building responsive and scalable web applications using React, Spring Boot, and REST APIs.
+
+I have hands-on experience developing real-world projects, including AI-based solutions and full-stack platforms. My work includes building a plant disease prediction system using Machine Learning and creating a secure digital content management platform with modern backend technologies.
+
+I am also experienced in data handling through web scraping and automation, which has strengthened my analytical thinking and problem-solving skills.
+
+I am passionate about continuous learning and actively exploring Machine Learning and Data Science to enhance my technical expertise. I aim to contribute to innovative, impactful products while growing as a developer in a fast-paced environment.</p>
+ 
+    <!-- <h2 id="ski">Technical Skills</h2>
     <ul type="square">
         <li>HTML</li>
         <li>CSS</li>
@@ -35,36 +47,111 @@
         <li>Java</li>
         <li>Tailwind CSS</li>
         <li>Python</li>
-        <li>Mysql</li>
-    </ul>
+        <li>Mysql</li> -->
+    <!-- </ul> -->
+
+  <h2 id="ski">Technical Skills</h2>
+
+  <h3>Programming Languages</h3>
+  <ul>
+    <li>Java</li>
+    <li>Python</li>
+    <li>JavaScript</li>
+  </ul>
+
+  <h3>Frontend Development</h3>
+  <ul>
+    <li>React.js</li>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>Tailwind CSS</li>
+  </ul>
+
+  <h3>Backend Development</h3>
+  <ul>
+    <li>Spring Boot</li>
+    <li>REST APIs</li>
+    <li>JDBC</li>
+  </ul>
+
+  <h3>Database</h3>
+  <ul>
+    <li>MySQL</li>
+    <li>PostgreSQL</li>
+  </ul>
+
+  <h3>Core Concepts</h3>
+  <ul>
+    <li>OOPS</li>
+    <li>DBMS</li>
+    <li>Computer Networks</li>
+    <li>Machine Learning (Fundamentals)</li>
+  </ul>
+
     <h2 id="pro">Projects</h2>
-    <ol>
-        <li>Plant disease prediction using AI </li>
-        <li>Price comparison website</li>
-        <li>Smart telemedicine kiosk</li>
-    </ol>
-    <h2 id="tech">Tech Glossary</h2>
-     <dl>
-        <dt>API</dt>
-        <dd>An API (Application Programming Interface) is a set of rules and protocols that allows different software applications to communicate and exchange data or functionality</dd>
-        <dt>CI/CD</dt>
-        <dd>CI/CD stands for Continuous Integration and Continuous Delivery (or Deployment). It's a DevOps practice that automates building, testing, and deploying code changes, enabling faster and more reliable software releases. </dd>
-     </dl>
-     <h2 id="lg">Learning Goal</h2>
-     <ol>
-        <li>Pattern Programming</li>
-        <li>Data Structures and Algorithms</li>
-        <li>Core Java</li>
-     </ol>
+    <ul>
+        <section>
+
+  <h3>Plant Disease Prediction Using AI</h3>
+  <p><strong>Tech Stack:</strong> Python, TensorFlow, HTML, CSS, JavaScript</p>
+  <ul>
+    <li>Developed an AI-powered system to detect plant diseases</li>
+    <li>Built backend logic using Python and integrated ML model</li>
+    <li>Designed a user-friendly interface for predictions</li>
+  </ul>
+  <p>
+    <a href="#">GitHub</a> | 
+    <a href="#">Live Demo</a>
+  </p>
+
+  <h3>Price Comparison Website</h3>
+  <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+  <ul>
+    <li>Developed a platform to compare product prices across multiple sources</li>
+    <li>Implemented search and filtering features for better user experience</li>
+    <li>Designed a responsive UI for seamless browsing</li>
+  </ul>
+  <p>
+    <a href="#">GitHub</a> | 
+    <a href="#">Live Demo</a>
+  </p>
+
+  <h3>Smart Telemedicine Kiosk</h3>
+  <p><strong>Tech Stack:</strong> AI models,web Technologies</p>
+  <ul>
+    <li>Built a Software module of system to enable remote healthcare consultations</li>
+    <li>Integrated patient data collection and basic health monitoring</li>
+    <li>Improved accessibility to medical services in remote areas</li>
+  </ul>
+  <p>
+    <a href="#">GitHub</a> | 
+    <a href="#">Live Demo</a>
+  </p>
+
+  <h3>Advocate and Client Management System</h3>
+  <p><strong>Tech Stack:</strong> Java, MySQL</p>
+  <ul>
+    <li>Developed a system to manage client records and legal case details</li>
+    <li>Implemented secure data storage and retrieval features</li>
+    <li>Streamlined communication between advocates and clients</li>
+  </ul>
+  <p>
+    <a href="#">GitHub</a> | 
+    <a href="#">Live Demo</a>
+  </p>
+
+</section>
+    </ul>
+    
      <h2 id="con">Contact</h2>
-     <a href="mailto:vishnupriyas26vp@gmail.com">MAIL ME</a><br>
-     <a href="tel:9785412367">Call Me</a>
-     <h2>Contact me via
-        <a href="https://www.linkedin.com/in/vishnu-priya-666055258" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/128/2504/2504923.png" alt="unable to load img" height=25px;>
-        </a>
-
-
-        </h2>
+     <div class="contact-links">
+         <a href="mailto:vishnupriyas26vp@gmail.com">Mail Me</a>
+         <a href="tel:9751166711">Call Me</a>
+         <a href="https://www.linkedin.com/in/vishnu-priya-666055258" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/128/2504/2504923.png" alt="LinkedIn" height="25px">
+            
+         </a>
+     </div>
+    </div>
 </body>
 </html>
